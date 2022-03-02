@@ -18,7 +18,7 @@ if __name__ == '__main__':
         name='example_project',
         version=versioneer.get_version(),
         cmdclass=versioneer.get_cmdclass(),
-        description='example gitlab CI project'
+        description='example gitlab CI project',
         zip_safe=False,
         author='FUW',
         author_email='marian.dovgialo@fuw.edu.pl',
