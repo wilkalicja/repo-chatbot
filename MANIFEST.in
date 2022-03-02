@@ -1,0 +1,3 @@
+recursive-include example_project *
+include versioneer.py
+include example_project/_version.py
