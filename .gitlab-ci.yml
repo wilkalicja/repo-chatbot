@@ -50,10 +50,14 @@ run:
 
 pages:
   stage: deploy
+  dependencies: 
+    - run
   artifacts:
     paths:
       - public
   script:
-    - echo "Done"
+    - mkdir -p public
+    - python website_gen/website_generator.py > public/index.html
+    - cp dist/*.whl public/
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
