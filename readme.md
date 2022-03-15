@@ -1,5 +1,5 @@
 ## FUW Chatbot
 
-###Strona projektu:
+### Strona projektu:
 
 https://programowanie-zespo-owe.gitlab.io/fuw-chatbot/
