@@ -1,3 +1,3 @@
 ## FUW Chatbot
 
-W.I.P.
+https://programowanie-zespo-owe.gitlab.io/fuw-chatbot/
