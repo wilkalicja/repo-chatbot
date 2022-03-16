@@ -15,7 +15,7 @@ INSTALL_REQUIREMENTS = {
 
 if __name__ == '__main__':
     setup(
-        name='example_project',
+        name='fuw_chatbot',
         version=versioneer.get_version(),
         cmdclass=versioneer.get_cmdclass(),
         description='example gitlab CI project',
@@ -32,7 +32,7 @@ if __name__ == '__main__':
             'Programming Language :: Python :: 3.5',
         ],
         keywords='bci eeg obci',
-        packages=find_packages(include=['example_project']),
+        packages=find_packages(include=['fuw_chatbot']),
         include_package_data=True,
         setup_requires=INSTALL_REQUIREMENTS['setup'],
         install_requires=INSTALL_REQUIREMENTS['install'],
