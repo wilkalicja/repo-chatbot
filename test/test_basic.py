@@ -1,10 +1,10 @@
 """Basic tests to test testing system."""
-import example_project
+import fuw_chatbot
 
 
 def test_import():
     """Package testing stub."""
-    assert example_project.TEST_VAR == 1
+    assert fuw_chatbot.TEST_VAR == 1
     
 def test_function():
-    assert example_project.f1() == 1
+    assert fuw_chatbot.f1() == 1

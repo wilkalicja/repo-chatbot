@@ -1,6 +1,6 @@
 # Official language image. Look for the different tagged releases at:
 # https://hub.docker.com/r/library/python/tags/
-image: python:3.6-buster # podobny co na komputerach w labie 
+image: python:3.10.0 # podobny co na komputerach w labie 
 
 
 # zmieniamy folder do którego pip ściąga pakiety, aby cacheować
