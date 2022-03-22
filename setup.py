@@ -1,5 +1,3 @@
-# Copyright (c) 2016-2018 Braintech Sp. z o.o. [Ltd.] <http://www.braintech.pl>
-# All rights reserved.
 from setuptools import setup, find_packages
 
 import versioneer
@@ -18,10 +16,10 @@ if __name__ == '__main__':
         name='fuw_chatbot',
         version=versioneer.get_version(),
         cmdclass=versioneer.get_cmdclass(),
-        description='example gitlab CI project',
+        description='FUW Chatbot',
         zip_safe=False,
-        author='FUW',
-        author_email='marian.dovgialo@fuw.edu.pl',
+        author='',
+        author_email='',
         license='Other/Proprietary License',
         classifiers=[
             'Development Status :: 3 - Alpha',
@@ -29,9 +27,9 @@ if __name__ == '__main__':
             'Topic :: Scientific/Engineering',
             'Intended Audience :: Developers',
             'Programming Language :: Python :: 3',
-            'Programming Language :: Python :: 3.5',
+            'Programming Language :: Python :: 3.10',
         ],
-        keywords='bci eeg obci',
+        keywords='fuw chatbot',
         packages=find_packages(include=['fuw_chatbot']),
         include_package_data=True,
         setup_requires=INSTALL_REQUIREMENTS['setup'],
