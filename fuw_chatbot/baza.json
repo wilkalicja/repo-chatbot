@@ -1,0 +1,11 @@
+{"tagi":[
+    {"tag": "powitanie",
+    "pytania": ["Hej","Cześć","Co tam?"],
+    "odpowiedzi":"Witaj"
+    },
+    {
+    "tag": "pożegnanie",
+    "pytania": ["Do następnego","Jeszcze tu wrócę","To jeszcze nie koniec"],
+    "odpowiedzi":"Żegnaj"
+    }
+]}
