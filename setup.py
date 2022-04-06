@@ -7,7 +7,7 @@ INSTALL_REQUIREMENTS = {
     'setup': [
     ],
     'install': [
-        'numpy==1.22.3',
+        'numpy==1.22.3', 'morfeusz2'
     ],
 }
 
