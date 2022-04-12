@@ -34,6 +34,7 @@ before_script:
 test:
   stage: test
   script:
+    - pip install morfeusz2
     - pip install flake8==4.0.1 pytest==7.0.1
     - pip install .
     - pytest test -vvv
