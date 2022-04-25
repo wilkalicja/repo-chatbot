@@ -48,5 +48,10 @@
      "pytania": ["Gdzie Dziekan przyjmuje studentów", "nr sali gdzie przyjmuje Dziekan"],
      "odpowiedzi": "Nasz Dziekan ds. Studenckich przyjmuje w pokoju 1.20 w budynku A"
      },
+     {"tag": "",
+     "pytania": ["w jakich godzinach przyjmuje Dziekan"],
+     "odpowiedzi": "Dziekan ds. Studenckich ma swój dyżur w poniedziałki w godzinach 13:00-15:00 w pokoju 1.20."
+     },
+
 
 ]}
